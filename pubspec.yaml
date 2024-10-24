@@ -1,0 +1,38 @@
+name: multitarea_6
+description: A new Flutter project.
+
+# Version and environment setup
+version: 1.0.0+1
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paquete http correctamente ubicado bajo dependencies
+  http: ^1.2.2
+
+  url_launcher: ^6.1.7  # Agrega esta línea
+
+
+  # Otros paquetes de tu proyecto
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_test:
+    sdk: flutter
+  http: ^1.2.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/my-photo.jpg" 
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+
